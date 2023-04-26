@@ -34,17 +34,16 @@ body {
   width: 100%;
   min-height: 20%;
   max-height: 20%;
-  border: 2px solid green;
+  display: flex;
+  justify-content: center;
 }
 .container .pokedex img {
-  border: 2px solid rgb(130, 175, 26);
   width: 30%;
-  max-height: 100%; 
 }
 
 .container .pokemon-data {
   text-align: right;
-  margin-top: 2%;
+  margin-top: 9%;
   padding-right: 26%;
 }
 .container .pokemon-data span {
