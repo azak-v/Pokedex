@@ -31,12 +31,11 @@ function script(){
         await fetch(link)
             .then(response => response.json())
             .then(pokemon => {
-                pokemonName.innerText = pokemon.name
-                pokemonNumber.innerText = index
-                });
+                console.log(pokemon);
+                pokemonName.innerText = pokemon.name;
+                pokemonImg.src = pokemon.sprites.versions["generation-v"]["black-white"].animated.front_default
+                pokemonNumber.innerText = index});
     })
-
-    function doFetch(arrow){}
     //query selectors do span do nome
     //Event listeners
     //função para fazer o fetch
